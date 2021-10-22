@@ -42,12 +42,10 @@
                       <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
                         <i class="fas fa-wrench"></i>
                       </button>
-                      <div class="dropdown-menu dropdown-menu-right" role="menu">
-                        <a href="{{route('users.create')}}" class="dropdown-item">Registrar</a>
-                        {{--  <a href="#" class="dropdown-item">Another action</a>
-                        <a href="#" class="dropdown-item">Something else here</a>
-                        <a class="dropdown-divider"></a>
-                        <a href="#" class="dropdown-item">Separated link</a>  --}}
+                      <div class="btn-group">
+                          <div role="menu">
+                              <a href="{{route('users.create')}}" class="btn btn-primary btn-sm">Registrar</a>
+                          </div>
                       </div>
                     </div>
 
