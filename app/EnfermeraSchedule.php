@@ -75,10 +75,10 @@ class EnfermeraSchedule extends Model
 
         // Jornada laboral por defecto.
         // Este apartado lo debemos modificar mas adelante para que sea dinámico. Por ahora lo vamos a hacer en código duro
-        $default_a_in = strtotime('8:00');
-        $default_a_out = strtotime('13:00');
-        $default_b_in = strtotime('15:00');
-        $default_b_out = strtotime('20:00');
+        $default_a_in = strtotime('7:00');
+        $default_a_out = strtotime('19:00');
+        $default_b_in = strtotime('19:00');
+        $default_b_out = strtotime('7:00');
 
         //Debemos procesar los 7 días de la semana.
         for ($i=1; $i <= 7; $i++) {

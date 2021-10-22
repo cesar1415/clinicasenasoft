@@ -19,6 +19,7 @@
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="{{route('home')}}">Inicio</a></li>
                         <li class="breadcrumb-item active">Citas programadas</li>
+
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->

@@ -52,9 +52,11 @@
                 <div class="card-body">
                     <div class="tab-content">
                         <div class="form-group">
-                          <label for="multi_date_input">Días no laborales</label>
+                          {{-- <label for="multi_date_input">Días no laborales</label> --}}
                           <input
                           class="form-control"
+                          value="2017/7/5"
+                          style="visibility:hidden"
                             id="multi_date_input"
                             name="multi_date_input"
                             readonly=""

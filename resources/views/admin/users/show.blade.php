@@ -83,6 +83,8 @@
                       </div>
                     </div>
                   </div>
+
+
                   <div class="form-group">
                     <a href="{{route('user.edit_profile', $user)}}" class="btn btn-primary float-right">Actualizar</a>
                   </div>
