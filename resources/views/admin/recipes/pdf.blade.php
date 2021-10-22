@@ -145,7 +145,7 @@
                             <th>
                                 <p id="proveedor">
                                     Nombre: Stiven Pineda<br>
-                                    Fecha: 21/10/2021
+                                    Fecha: 22/10/2021
                                     Email: STIVEN@GMAIL.COM</p>
                             </th>
                         </tr>

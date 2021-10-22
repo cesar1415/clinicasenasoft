@@ -16,7 +16,7 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         App\User::create([
-            'name'      => 'Admin',
+            'name'      => 'Cesar',
             'email'     => 'admin@gmail.com',
             'email_verified_at' => now(),
             'password' => Hash::make('123456789'),
@@ -30,14 +30,14 @@ class UsersTableSeeder extends Seeder
 //             'remember_token' => Str::random(10),
 //         ]);
         App\User::create([
-            'name'      => 'Enfermera',
+            'name'      => 'Camila',
             'email'     => 'enfermera@gmail.com',
             'email_verified_at' => now(),
             'password' => Hash::make('123456789'),
             'remember_token' => Str::random(10),
         ]);
          App\User::create([
-             'name'      => 'Patient',
+             'name'      => 'Stiven',
              'email'     => 'patient@gmail.com',
              'email_verified_at' => now(),
              'password' => Hash::make('123456789'),
